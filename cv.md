@@ -17,9 +17,9 @@
 ## Education:
 Minsk State Linguistic University
 
-*French Department*
+French Department
 
-French and English teacher
+*French and English teacher*
 
 ## Work Expierence:
 * English Teacher (*2014 - 2017*)
