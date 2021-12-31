@@ -1,9 +1,9 @@
 # Kostukevich Tatiana
 
 ## Contacts:
-* tel.: +3755333141235
-* e-mail: kostukevich.tatiana@gmail.com
-* GitHub: tankost
+* **tel.**: +3755333141235
+* **e-mail**: kostukevich.tatiana@gmail.com
+* **GitHub**: tankost
 
 ## Skills:
 * HTML5, CSS3
@@ -15,7 +15,7 @@
 * Adobe Photoshop
 
 ## Education:
-Minsk State Linguistic University
+**Minsk State Linguistic University**
 
 French Department
 
