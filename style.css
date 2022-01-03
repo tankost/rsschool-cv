@@ -1,0 +1,189 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("assets/fonts/roboto-v29-latin-regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    src: url("assets/fonts/playfair-display-v25-latin-700.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header-container {
+    background-color: #352c4e;
+
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0 auto;
+}
+
+.nav-link {
+    color: #ffffff;
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.nav-item a {
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-item a:hover {
+    opacity: .75;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.header-name {
+    width: 50%;
+    color: #ffffff;
+
+}
+
+.name-title {
+    font-family: Playfair Display, sans-serif;
+    font-weight: 700;
+    font-size: 46px;
+    position: relative;
+    padding-bottom: 40px;
+}
+
+.name-title::after {
+    display: block;
+    content: ' ';
+    width: 410px;
+    height: 2px;
+    background-color: #f2f0f8;
+    position: absolute;
+    top: 80px;
+}
+
+h2 {
+    font-family: Playfair Display, sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.header-photo {
+    align-self: flex-end;
+}
+
+.photo-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+}
+
+.section-title {
+    padding-bottom: 10px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #ffffff;
+    margin: 0 auto;
+    padding: 40px 50px;
+    color: #000000;
+}
+
+.left-side {
+    width: 40%;
+    border-right: 8px solid #352c4e;
+    padding-right: 50px;
+    padding-left: 20px;
+}
+
+.left-side-section {
+    padding-bottom: 150px;
+}
+
+.languages, .skills-list, .courses, .work {
+    list-style-type: circle;
+}
+
+.right-side {
+    padding-left: 80px;
+}
+
+.right-side-section {
+    padding-bottom: 150px;
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+
+.contacts-list {
+    list-style: none;
+    padding: 0;
+}
+
+.logo-contacts {
+    position: relative;
+    top: 10px;
+    right: 5px;
+}
+
+.footer {
+    background-color: #ede9f7;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.rs-logo {
+    height: 100px;
+    width: 200px;
+}
