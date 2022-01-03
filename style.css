@@ -68,7 +68,7 @@ html {
 }
 
 .nav-item a:hover {
-    color: #4d2323;
+    opacity: .75;
 }
 
 .header-content {
@@ -135,11 +135,16 @@ h2 {
 .left-side {
     width: 40%;
     border-right: 8px solid #352c4e;
-    padding-right: 30px;
+    padding-right: 50px;
+    padding-left: 20px;
 }
 
 .left-side-section {
     padding-bottom: 150px;
+}
+
+.languages, .skills-list, .courses, .work {
+    list-style-type: circle;
 }
 
 .right-side {
@@ -147,7 +152,7 @@ h2 {
 }
 
 .right-side-section {
-    padding-bottom: 50px;
+    padding-bottom: 150px;
 }
 
 @media (max-width: 768px) {
